@@ -4,8 +4,8 @@ on:
     branches: [main]
 
 jobs:
-  my_build test:
-    runs_on: ubunty-latest
+  my_build_test:
+    runs-on: ubunty-latest
     steps:
     - uses: actions/checkout@v3
     - name: Set up Python 3.10.4
